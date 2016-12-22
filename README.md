@@ -6,6 +6,17 @@ This program is tested on a mbed LPC1768.
 
 To install mbed toolkit, please refer to [this guide](http://devblog.exmachina.fr/tutorial/2016/12/08/LPC1768-development-toolkit)
 
+# Requirements
+
+For this lib to work, you need broadcast features in socket. This feature is not yet merged so you need to use the our [mbed-os](https://github.com/exmachina-dev/mbed-os) repository.
+To do so, go in the `mbed-os` directory and add a remote:
+
+```sh
+$ cd ./mbed-os
+$ git remote add exmachina https://github.com/exmachina-dev/mbed-os
+$ git pull exmachina
+```
+
 # License
 
 This is released under MIT license. See [LICENSE](LICENSE) for mor information.
