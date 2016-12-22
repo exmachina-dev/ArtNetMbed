@@ -3,9 +3,9 @@
 
 #include "mbed.h"
 
-DigitalOut HBled(LED1);
-DigitalOut ANled(LED2);
-DigitalOut APled(LED3);
-DigitalOut ERled(LED4);
+PwmOut HBled(LED1);
+PwmOut ANled(LED2);
+PwmOut APled(LED3);
+PwmOut ERled(LED4);
 
 #endif // LED_H
