@@ -1,4 +1,4 @@
 [submodule "lib/libartnet"]
 	path = lib/libartnet
-	url = git@git.exmachina.fr:libartnet.git
+	url = git@github.com:exmachina-dev/libartnet.git
 	branch = mbed
